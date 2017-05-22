@@ -1,0 +1,15 @@
+	#captain1,#hulk1,#spider-man1,#Thor1,#Iron-man1,#Daredevil1,#Punisher1,#Wolverine1,#Deadpool1,#Ms_Marvel1{
+		float: right;
+	}
+	#captain1 img,#hulk1 img,#spider-man1 img,#Thor1 img,#Iron-man1 img,#Daredevil1 img,#Punisher1 img,#Wolverine1 img,#Deadpool1 img,#Ms_Marvel1 img{
+    	position: relative;
+        z-index: -1;
+        top: 20px;
+    }
+
+    .stars{
+        margin: 40px auto;
+        font-size: 5em;
+        text-align: center;
+    }
+
