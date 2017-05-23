@@ -16,8 +16,12 @@
         }
         h1{
             text-align: center;
+            color: #D0D0D0;
         }
         p{
-            text-indent: 2em;
-            color:blue;
+            text-indent: 3em;
+            color:#D0D0D0;
+        }
+        h2{
+            color: #D0D0D0;
         }
