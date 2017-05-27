@@ -26,3 +26,16 @@
             color:black;
             list-style-type:none; 
 		}
+		.contain{
+			width: 24em;
+			height: 3em;
+		}
+		.time{
+			width: 5em;
+			height: 3em;
+		}
+		table tr td,th{
+        /*font-size: 1.5em;*/
+        color: black;
+        border-bottom: 1px dotted black;
+    }
