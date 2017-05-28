@@ -2,9 +2,148 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<script src="js/form.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/clear.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="960-Grid-System-master/code/css/960.css"/>
+	<link rel="stylesheet" type="text/css" href="css/myform.css">
+	<title>联系方式</title>
 </head>
 <body>
+
+	<div class="container_12">
+	<h2>反馈方式</h2>
+		<div class="myform">
+			<form id="form1">
+			<fieldset>
+				<fieldset>
+					<legend>个人信息</legend>
+					<div>
+						<span class="wi">
+							<label class="small">姓名:</label>
+							<input class="word" type="text" name="name" placeholder="Name">
+						</span>
+						<span class="wi">
+							<label class="small">邮箱:</label>
+							<input class="word" type="text" name="e-mail" placeholder="E-mail">
+						</span>
+					</div>
+					<div>
+						<span class="wi">
+							<label class="small">账号:</label>
+							<input class="word" type="text" name="ID" placeholder="ID">
+						</span>
+						<span class="wi">
+							<label class="small">密码:</label>
+							<input class="word" type="password" name="password" placeholder="Password">
+						</span>
+					</div>
+					<div>
+						<span class="wi">
+							<label class="small">手机号码：</label>
+							<input class="word" type="text" name="PN" placeholder="phone numbe">
+						</span>
+					</div>
+						<span class="wi">
+							<label class="small">性别：</label>
+							<input type="radio" name="sex" value="male">男
+							<input type="radio" name="sex" value="female">女
+						</span>
+				</fieldset>
+
+				<fieldset>
+					<legend>关于漫威</legend>
+					<div class="mi">	
+						<span>
+							<label>请问你对漫威世界的了解：</label><br>
+							<input type="radio" name="knowledge" value="all">了如指掌
+							<input type="radio" name="knowledge" value="most">大体知道
+							<input type="radio" name="knowledge" value="half">有所耳闻
+							<input type="radio" name="knowledge" value="no">没有听说过
+						</span>
+					</div>	
+					<div class="mi">
+						<span>
+							<label>你常看漫威的电影吗？</label><br>
+							<input type="radio" name="movie" value="often">经常
+							<input type="radio" name="movie" value="sometime">看评价而定
+							<input type="radio" name="movie" value="few">偶尔
+						</span>
+					</div>
+					<div class="fai">
+						<label class="large">你最喜欢的英雄是：</label>
+						<input list="browsers" name="browser">
+						<datalist id="browsers">
+						  <option value="美国队长">
+						  <option value="浩克">
+						  <option value="蜘蛛侠">
+						  <option value="雷神托尔">
+						  <option value="钢铁侠">
+						  <option value="超胆侠">
+						  <option value="惩戒者">
+						  <option value="金刚狼">
+						  <option value="死侍">
+						  <option value="惊奇女士">
+						  <option value="恶灵骑士">
+						  <option value="刀锋战士">
+						</datalist>
+						<input type="submit" onclick="rec()">
+					</div>
+
+					<div class="fai">
+						<label class="large">你最喜欢的反派是：</label>
+						<input list="bads" name="bad">
+						<datalist id="bads">
+						  <option value="邪神洛基">
+						  <option value="奥创">
+						  <option value="灭霸">
+						  <option value="万磁王">
+						  <option value="毁灭博士">
+						  <option value="金并">
+						  <option value="毒液">
+						</datalist>
+						<input type="submit" onclick="rec()">
+					</div>
+					<div class="fai">
+						<label class="large">你最喜欢的英雄团体是：</label>
+						<input list="heros" name="hero">
+						<datalist id="heros">
+						  <option value="神奇四侠">
+						  <option value="复仇者联盟">
+						  <option value="X战警">
+						  <option value="神盾局">
+						  <option value="银河护卫队">
+						  <option value="九头蛇">
+						  <option value="捍卫者联盟">
+						</datalist>
+						<input type="submit" onclick="rec()">
+					</div>
+
+				</fieldset>
+				<fieldset>
+					<legend>狼三评价</legend>
+					<span>
+						<div class="ideal">	
+							<label>你对最近的《金刚狼3》有什么想说的吗？</label>
+						</div>	
+						<textarea class="ideal2" rows="10" cols="100" placeholder="请控制在300字以内"></textarea>
+					</span>
+				</fieldset>
+				<fieldset>
+					<legend>建议反馈</legend>
+					<span>
+						<div class="ideal">	
+							<label>对我们有什么建议？</label>
+						</div>	
+						<textarea class="ideal2" rows="10" cols="100" placeholder="请控制在300字以内"></textarea>
+					</span>
+				</fieldset>
+				<input class="last" type="submit" onclick="rec2()" value="发送">
+				<input class="last" type="reset" onclick="rec3()" value="重置">
+			</fieldset>
+			</form>
+		</div>
+	</div>
 	
 </body>
 </html>

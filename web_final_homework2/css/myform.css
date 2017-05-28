@@ -1,0 +1,56 @@
+	body{
+        background-image:url("../picture/form.jpg");
+        background-repeat:no-repeat;
+        background-attachment: fixed;       
+    }
+	fieldset{
+		border: 10px solid #796400;
+		width: 960px;
+	}
+	span{
+		display: inline-block;
+	}
+	label{
+		display: inline-block;
+		font-weight: bold;
+	}
+	.small{
+		width: 6em;
+	}
+	.word{
+		width: 14em;
+	}
+	.wi{
+		margin-left: 4em;
+		margin-right: 3em;
+	}
+	.mi{
+		margin-left: 4em;
+		margin-bottom: 1em;
+	}
+	.fai{
+		margin-left: 4em;
+	}
+	.large{
+		width: 12em;
+	}
+	.ideal{
+		margin-left: 4em;
+	}
+	.ideal2{
+		margin-left: 6em;
+	}
+	.last{
+		margin-top: 1em;
+		margin-left: 11em;
+		margin-right: 12em;
+		width: 10em;
+		height: 3em;
+		font-weight:bold;
+		font-size: 0.7em; 
+		color: #796400;
+	}
+	h2,legend{
+		font-weight: bold;
+		
+	}
