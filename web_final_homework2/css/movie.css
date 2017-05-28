@@ -1,3 +1,4 @@
+
         .header a{
             color:#000;
             border:0;
@@ -31,11 +32,19 @@
 			height: 3em;
 		}
 		.time{
-			width: 5em;
+			width: 6em;
 			height: 3em;
 		}
 		table tr td,th{
         /*font-size: 1.5em;*/
         color: black;
         border-bottom: 1px dotted black;
-    }
+    	}
+    	.movie{
+    		float: center;
+    		margin: 0;
+    	}
+    	video{
+    		width:960px;
+    		height:600px;
+    	}
