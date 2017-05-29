@@ -203,4 +203,36 @@ body{
 >		git commit -m 'first commit'
 >		git remote add origin git@github.com:daixu/WebApp.git
 >		git push -u origin master
->
+##五、开发心得
+###在开发中，技术逐渐熟练，遇到不会的问题，查找解决方案的速度越来越快，逐渐意识到动手实践和自己解决问题的重要性</br>
+###2.在开发过程中，我都先构思好页面布局，填充主要内容，再添加样式，步骤清晰，条理清楚，使得开发时候不再混乱。</br>
+###3.多寻找不同解决方案，在别人的解决方案里面得到自己想要的方法或者自己受到启发</br>
+###4.多看手册，在不同的标签和属性中，多加实验，可以更加具体清晰地了解标签和属性的使用和效果。</br>
+###5.关于本门课的感想：老师上课实例动手亲自操作，使得学生学习地具体形象；课程顺序分类清楚详细，资料全面详细，激发学生自学性；以作品实例为最后检查内容，更加贴近课程要求，可以从最后的作品反映学生的学习效果；老师针对课堂内容，问题、开发、选择与使用恰当的技术、资源、现代工程工具和信息工具。</br>
+###6.关于该课程的展望：对每一阶段学生的学习进度及时检查，减少学习进度越拖越久的情况。</br>
+##六、结合考核要求的关于本作业的内容详细说明</br>
+###1.必须用到的HTML标签（基本用到，根据要求，用到的标签如下）</br>
+>		元标记：<title>、<meta>
+>		语义类标记 <h1-h2>、<p>、<ul>、<table>
+>		媒体类标记 <a>、<img>、<audio>或<video>
+>		容器类标记 <div>、<span>、<article>、<footer>、<aside>、<nav>、<section>、<articlce>
+>		表单及其控件：<form>、<input>、<textarea>、<select>、<submit>
+###2.必须涉及的CSS知识点（完成）</br>
+>		基本排版：各html标记的基本样式设置
+>		字体：安全字体（fallback机制）、图标字体icon font
+>		横向布局：使用浮动方式实现
+>		定位：绝对定位或固定定位
+>		背景与边框
+>		css特效：2D转换或过渡（在myform.html文件）
+>		杂项：text-aglin、display等属性的使用
+>		移动WEB优化：media query的应用
+###3.javascript要求
+>		使用jquery插件实现至少一个特效或交互效果（在前三个页面有使用）
+>		自行开发JS脚本实现至少一个特效或交互效果（myform.html）
+###4.加分因素
+>		合理的使用了上述未提及的各类前端知识点，如html5和css3新特性、sass等
+>		（CSS3：border-radius /box-shadow /text-shadow/CSS过渡/CSS动画（改变颜色）/）
+>		浏览器兼容性：IE9+兼容，各浏览器表现一致(实现代码如下)
+>		(<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">)
+>		可访问性：如对听觉设备、打印设备的优化
+>		打印设备在movie.html和print.css中；听觉在index.css的p标签中）
