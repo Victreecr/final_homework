@@ -40,7 +40,7 @@
 			height: 3em;
 		}
 		table tr td,th{
-        /*font-size: 1.5em;*/
+        font-size: 1.5em;
         color: #D9B300;
         border-bottom: 1px dotted #D0D0D0;
     	}
@@ -55,3 +55,6 @@
     	h3{
     		color: #D0D0D0;
     	}
+        .ali{
+            color:#D0D0D0;
+        }
