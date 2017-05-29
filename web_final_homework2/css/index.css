@@ -28,3 +28,15 @@
             color: #D0D0D0;
             font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
         }
+        p{
+            speak:normal;
+            azimuth:center;
+            elevation:level;
+            voice-family:male;
+            richness:80;
+            pitch:high;
+            cue-before:url("http://www.kugou.com/song/1psx6a0.html?from_sogou#hash=787F4B9DD4AE9AFACDC661CBC4A958BB&album_id=0");
+        }
+        footer{
+            color: #D0D0D0;
+        }

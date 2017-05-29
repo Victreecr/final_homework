@@ -1,0 +1,50 @@
+@page{
+	size: a4 landscape;
+	margin: 2cm;
+}
+@media print{ 
+	body{
+		background: none;
+	}
+	.header a{
+        display: none;
+    }
+	.header{
+       	display: none;
+    } 
+    .header nav{
+        display: none;
+    }
+	.header nav ul,.header nav ul li{
+        display: none; 
+	}
+	.contain{
+		color: #000;
+		width: 24em;
+		height: 3em;
+	}
+	.time{
+		color: #000;
+		width: 6em;
+		height: 3em;
+	}
+	table tr td,th{
+    font-size: 1.5em;
+    font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
+    color: #000;
+    border-bottom: 1px dotted #000;
+	}
+	.movie{
+		display: none;
+	}
+	video{
+		display: none;
+	}
+	h3{
+		color: #000;
+        font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
+	}
+    .ali{
+        color:#000;
+    }
+}
