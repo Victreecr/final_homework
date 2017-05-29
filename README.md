@@ -232,6 +232,7 @@ body{
 ###4.加分因素
 >		合理的使用了上述未提及的各类前端知识点，如html5和css3新特性、sass等
 >		（CSS3：border-radius /box-shadow /text-shadow/CSS过渡/CSS动画（改变颜色）/）
+>		(html5:<article>/<asider>/<footer>/<nav>/<section>/)
 >		浏览器兼容性：IE9+兼容，各浏览器表现一致(实现代码如下)
 >		(<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">)
 >		可访问性：如对听觉设备、打印设备的优化
