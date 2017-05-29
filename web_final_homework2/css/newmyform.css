@@ -1,12 +1,12 @@
-@media  (max-width:300px ){
+@media  (max-width:1000px ){
 	body{
-        background-color: red;
-        /*background-image: none;
-            */
+        background-color: white;
+        background-image: none;
+            
     }
 	fieldset{
 		border: 5px solid #796400;
-		width: 600px;
+		width: 500px;
 	}
 	span{
 		display: inline-block;
@@ -17,7 +17,7 @@
 		font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
 	}
 	.small{
-		width: 3em;
+		width: 5em;
 	}
 	.word{
 		width: 7em;
@@ -34,7 +34,7 @@
 		margin-left: 2em;
 	}
 	.large{
-		width: 6em;
+		width: 11em;
 	}
 	.ideal{
 		margin-left: 2em;
@@ -45,12 +45,12 @@
 	.last{
 		margin-top: 0.5em;
 		margin-left: 5.5em;
-		margin-right: 6em;
-		width: 5em;
+		margin-right: 5em;
+		width: 4em;
 		height: 1.5em;
 		font-weight:bold;
 		font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
-		font-size: 0.35em; 
+		font-size: 1em; 
 		color: #796400;
 		/*3D转换*/
 		transition: border-radius 1s;
@@ -75,10 +75,11 @@
 		
 	}
 	a{
-		color: #D0D0D0;
+		color: #000;
 		font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
 	}
 	textarea{
+		width: 400px;
 		border-radius: 10px;
 	}
 }
