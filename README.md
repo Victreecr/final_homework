@@ -27,7 +27,7 @@
 		最终解决方法：</br>
 		对壁纸设定两个div，然后改变div的display属性）</br>
 ```
-.a{ 
+		.a{ 
             display:table;
             width:100%;
             height:auto;
@@ -41,3 +41,18 @@
             display:inline; 
         }
 ```
+####2.内容无法再壁纸上浮动</br>
+		难点：课堂已知知识无法解决</br>
+		知识背景：background-attachment的属性</br>
+		最终解决方案：</br>
+		（查阅background-attachment的属性）</br>
+```
+		body{
+        background-image:url("../picture/form.jpg");/*图片地址*/
+        background-repeat:no-repeat;/*询问是否重复图片，选择不重复*/
+        background-attachment: fixed;  
+		/*定义背景图片随滚动轴的移动方式,fixed是固定于浏览器窗口*/     
+    	}
+```
+
+
