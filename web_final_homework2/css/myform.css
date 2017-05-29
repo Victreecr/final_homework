@@ -1,3 +1,26 @@
+	@keyframes myfirst{
+		    0% {background: #FF0000;}
+		    20% {background: #FF8000;}
+		    30% {background: #FFD306;}
+		    40% {background: #F9F900;}
+		    60% {background: #8CEA00;}
+		    80% {background: #00EC00;}
+		    90% {background: #0066CC;}
+		    100% {background: #6F00D2;}
+		}
+		 
+		@-webkit-keyframes myfirst {
+		    0% {background: #FF0000;}
+		    20% {background: #FF8000;}
+		    30% {background: #FFD306;}
+		    40% {background: #F9F900;}
+		    60% {background: #8CEA00;}
+		    80% {background: #00EC00;}
+		    90% {background: #0066CC;}
+		    100% {background: #6F00D2;}
+		}
+
+
 	body{
         background-image:url("../picture/form.jpg");
         background-repeat:no-repeat;
@@ -54,6 +77,8 @@
 		/*3D转换*/
 		transition: border-radius 1s;
 		-webkit-transition: border-radius 1s;
+
+		
 	}
 	.last:hover{
 		border-radius: 15px;
@@ -79,5 +104,10 @@
 	}
 	textarea{
 		border-radius: 20px;
+		box-shadow: 10px 10px 5px #D0D0D0;
+		animation: myfirst 30s;
+    	-webkit-animation: myfirst 30s;
 	}
-	
+	h2{
+		text-shadow: 5px 5px 5px #796400;
+	}
