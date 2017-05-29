@@ -13,12 +13,16 @@
         text-align: center;
         color: #D0D0D0;
     }
-
+    span{
+        font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
+    }
     p,h3,h1{
         font-size: 1.5em;
+        font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
         color: #D0D0D0;
     }
     table tr td,th{
+        font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
         font-size: 1.5em;
         color: #D0D0D0;
         border-bottom: 1px dotted #D0D0D0;

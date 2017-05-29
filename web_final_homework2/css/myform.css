@@ -13,6 +13,7 @@
 	label{
 		display: inline-block;
 		font-weight: bold;
+		font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
 	}
 	.small{
 		width: 6em;
@@ -47,13 +48,16 @@
 		width: 10em;
 		height: 3em;
 		font-weight:bold;
+		font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
 		font-size: 0.7em; 
 		color: #796400;
 	}
 	h2,legend{
 		font-weight: bold;
+		font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
 		
 	}
 	a{
 		color: #D0D0D0;
+		font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
 	}
