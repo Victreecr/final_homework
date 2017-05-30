@@ -59,6 +59,7 @@ body{
 		最终解决方案：</br>
 		见链接</br>
 >：http://blog.csdn.net/u012061196/article/details/49687013</br>
+		
 ####4.git上部分样式不能显示问题
 		难点：因为是应用插件的原因，开始时候没有具体熟悉插件的各个代码。GitHub对一些CSS和JS文件不能显示。
 		知识背景：修改hosts和bootstrap文件的引用
