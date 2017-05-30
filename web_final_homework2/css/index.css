@@ -40,3 +40,11 @@
         footer{
             color: #D0D0D0;
         }
+        address{
+            display: inline-block;
+        }
+        sub{
+            display: inline-block;
+            float: right;
+            font-size: 1em;
+        }
