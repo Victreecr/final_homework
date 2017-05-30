@@ -59,7 +59,38 @@ body{
 		最终解决方案：</br>
 		见链接</br>
 >：http://blog.csdn.net/u012061196/article/details/49687013</br>
-####4.git的行命令</br>
+####4.git上部分样式不能显示问题
+		难点：因为是应用插件的原因，开始时候没有具体熟悉插件的各个代码。GitHub对一些CSS和JS文件不能显示。
+		知识背景：修改hosts和bootstrap文件的引用
+		最终解决方案：
+>		1.修改hosts文件
+>		
+>	    hosts文件位置
+>		记事本右键，管理员权限打开；
+>		在弹出的记事本窗口中，点击  文件 -> 打开  ，并打开目录 C:\Windows\System32\drivers\etc   （这里记下目录，省的以后再去搜）
+>		右下角 文本文档*.txt 切换成 所有文件
+>		选中hosts文件，单击打开。
+>		更新比较频繁的hosts文件资源链接：http://laod.cn/hosts/2015-google-hosts.html
+>		github等网站不能加载css、js的处理
+>		chrome打开github经常没加载一些css和js文件，F12看Network 会发现2个css和2个js文件404了，目测GFW的杰作。四个未加载问价如下：
+>>		https://assets-cdn.github.com/assets/github-ce4c3f5b30639b5488b01748e2c1f8166ed48a0075b9b3987b035ccfc310bf1c.css
+>>		https://assets-cdn.github.com/assets/github2-26160771e44f0aef42411069340cd3cbebd42400911cf7e4cfded91e4eeb2e26.css
+>>		https://assets-cdn.github.com/assets/frameworks-2c67e846b237d12dc49d9ba38bef688797518db6c4fc7ec256caf871623c69e4.js
+>>		https://assets-cdn.github.com/assets/github-615a25a0e4865aa31e362e8d4a6be79331915194ecd0c764fffcd0936da57be2.js
+>		解决方法：
+>		修改hosts文件，将assets-cdn.github.com 这个cdn网站的ip加入hosts文件内；
+>		查找ip可以在chrome中F12的network中，单击要查看的文件项，即可查看；也可以http://ipaddress.com/  在这里搜；
+>		当然，FQ比较麻烦的方法就是将 google 的各个ip加入到hosts文件中。
+>>		(这个方案的缺陷是你在自己的电脑上可以实现，但是别人看到的样式还是不能显现)
+>
+>		2.改变bootstrap文件的引用
+>>		原来的代码如下：
+>>		<link href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+>		现在代码如下：
+>>		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+>		(好处是别人也能看到页面正常的样式)
+
+####5.git的行命令</br>
 		难点：上传文件时出现的错误
 		知识背景：git行命令
 		最终解决方案：
