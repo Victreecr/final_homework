@@ -14,9 +14,9 @@
 		意见反馈页面负责把用户对本网站的意见信息进行反馈。</br>
 		页面的URL地址：</br>
 		主页面：https://victreecr.github.io/final_homework/web_final_homework2/index.html</br>
-		英雄页面：https://victreecr.github.io/final_homework/hero.html</br>
-		影视页面：https://victreecr.github.io/final_homework/movie.html</br>
-		反馈页面：https://victreecr.github.io/final_homework/myform.html</br>
+		英雄页面：https://victreecr.github.io/final_homework/web_final_homework2/hero.html</br>
+		影视页面：https://victreecr.github.io/final_homework/web_final_homework2/movie.html</br>
+		反馈页面：https://victreecr.github.io/final_homework/web_final_homework2/myform.html</br>
 ##三、技术指标</br>
 		兼容IE6,7,8,9,10；使用的HTML版本为4与5，css2和css3；开发工具为sublime，GitHub；</br>
 ##四、技术点说明</br>
