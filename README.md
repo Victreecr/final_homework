@@ -98,7 +98,7 @@ body{
 >>		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 >		(好处是别人也能看到页面正常的样式)
 
-####5.git的行命令</br>
+#### 5.git的行命令</br>
 		难点：上传文件时出现的错误
 		知识背景：git行命令
 		最终解决方案：
