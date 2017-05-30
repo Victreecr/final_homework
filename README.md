@@ -17,8 +17,12 @@
 		英雄页面：https://victreecr.github.io/final_homework/web_final_homework2/hero.html</br>
 		影视页面：https://victreecr.github.io/final_homework/web_final_homework2/movie.html</br>
 		反馈页面：https://victreecr.github.io/final_homework/web_final_homework2/myform.html</br>
+		
+
 ##三、技术指标</br>
 		兼容IE6,7,8,9,10；使用的HTML版本为4与5，css2和css3；开发工具为sublime，GitHub；</br>
+
+
 ##四、技术点说明</br>
 ###1）技术难点</br>
 ####1.主页面设置时壁纸留白问题：</br>
@@ -242,6 +246,8 @@ body{
 ###4.多看手册，在不同的标签和属性中，多加实验，可以更加具体清晰地了解标签和属性的使用和效果。</br>
 ###5.关于本门课的感想：老师上课实例动手亲自操作，使得学生学习地具体形象；课程顺序分类清楚详细，资料全面详细，激发学生自学性；以作品实例为最后检查内容，更加贴近课程要求，可以从最后的作品反映学生的学习效果；老师针对课堂内容，问题、开发、选择与使用恰当的技术、资源、现代工程工具和信息工具。</br>
 ###6.关于该课程的展望：对每一阶段学生的学习进度及时检查，减少学习进度越拖越久的情况。</br>
+		
+		
 ##六、结合考核要求的关于本作业的内容详细说明</br>
 ###1.必须用到的HTML标签（基本用到，根据要求，用到的标签如下）</br>
 >		元标记：<title>、<meta>
