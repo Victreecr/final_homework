@@ -1,7 +1,8 @@
 # 开发报告</br>
 ## 一、本站点的策划思路</br>
 ### 1)为什么做？</br>
-		基于对漫威系列的喜爱，做了这样的兴趣性站点，与相同的爱好者分享漫威的一些故事、情节甚至于它的发展和影片分享。使得同好者不必再去各个网站寻找他需要的信息。</br>
+		基于对漫威系列的喜爱，做了这样的兴趣性站点，与相同的爱好者分享漫威的一些故事、情节甚至于它的发展和影片分享。
+		使得同好者不必再去各个网站寻找他需要的信息。</br>
 ### 2）期望的效果？</br>
 		期望达到的效果是网页简洁，用户操作不复杂，内容全面。</br>
 ### 3）内容来源？</br>
@@ -72,12 +73,14 @@ body{
 >		
 >	    hosts文件位置
 >		记事本右键，管理员权限打开；
->		在弹出的记事本窗口中，点击  文件 -> 打开  ，并打开目录 C:\Windows\System32\drivers\etc   （这里记下目录，省的以后再去搜）
+>		在弹出的记事本窗口中，点击  文件 -> 打开  ，并打开目录
+>		 C:\Windows\System32\drivers\etc   （这里记下目录，省的以后再去搜）
 >		右下角 文本文档*.txt 切换成 所有文件
 >		选中hosts文件，单击打开。
 >		更新比较频繁的hosts文件资源链接：http://laod.cn/hosts/2015-google-hosts.html
 >		github等网站不能加载css、js的处理
->		chrome打开github经常没加载一些css和js文件，F12看Network 会发现2个css和2个js文件404了，目测GFW的杰作。四个未加载问价如下：
+>		chrome打开github经常没加载一些css和js文件，F12看Network 
+>		会发现2个css和2个js文件404了，目测GFW的杰作。四个未加载问价如下：
 >>		https://assets-cdn.github.com/assets/github-ce4c3f5b30639b5488b01748e2c1f8166ed48a0075b9b3987b035ccfc310bf1c.css
 >>		https://assets-cdn.github.com/assets/github2-26160771e44f0aef42411069340cd3cbebd42400911cf7e4cfded91e4eeb2e26.css
 >>		https://assets-cdn.github.com/assets/frameworks-2c67e846b237d12dc49d9ba38bef688797518db6c4fc7ec256caf871623c69e4.js
