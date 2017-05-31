@@ -267,10 +267,10 @@ body{
 >		css特效：2D转换或过渡（在myform.html文件）
 >		杂项：text-aglin、display等属性的使用
 >		移动WEB优化：media query的应用
-### 3.javascript要求
+### 3.javascript要求(完成)
 >		使用jquery插件实现至少一个特效或交互效果（在前三个页面有使用）
 >		自行开发JS脚本实现至少一个特效或交互效果（myform.html）
-### 4.加分因素
+### 4.加分因素（完成）
 >		合理的使用了上述未提及的各类前端知识点，如html5和css3新特性、sass等
 >		（CSS3：border-radius /box-shadow /text-shadow/CSS过渡/CSS动画（改变颜色）/）
 >		(html5:<article>/<asider>/<footer>/<nav>/<section>/<canvas>)
