@@ -44,7 +44,7 @@
 		table tr td,th{
         font-size: 1.5em;
         font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
-        color: #D9B300;
+        color: #D0D0D0;
         border-bottom: 1px dotted #D0D0D0;
     	}
     	.movie{
@@ -62,3 +62,15 @@
         .ali{
             color:#D0D0D0;
         }
+       li{
+        font-size: 1.5em;
+        margin-left: 2em;
+        margin-right: 1em;
+       }
+       .lij{
+        color:#D0D0D0;
+        border:none;
+       }
+       .lij:hover{
+        color: blue;
+       }
