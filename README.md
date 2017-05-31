@@ -50,7 +50,7 @@
 		难点：课堂已知知识无法解决
 		知识背景：background-attachment的属性
 		最终解决方案：</br>
-		（查阅background-attachment的属性) </br>
+		（查阅background-attachment的属性)
 ```
 body{
         background-image:url("../picture/form.jpg");/*图片地址*/
@@ -59,10 +59,10 @@ body{
     	}
 ```
 #### 3.视频资料的地址获取 </br>
-		难点：无法直接在网站上获取视频地址 </br>
-		知识背景：巧用网页源代码 </br>
-		最终解决方案： </br>
-		见链接</br>
+		难点：无法直接在网站上获取视频地址
+		知识背景：巧用网页源代码
+		最终解决方案：
+		见链接
 >：http://blog.csdn.net/u012061196/article/details/49687013 </br>
 
 #### 4.git上部分样式不能显示问题
@@ -273,7 +273,7 @@ body{
 ### 4.加分因素
 >		合理的使用了上述未提及的各类前端知识点，如html5和css3新特性、sass等
 >		（CSS3：border-radius /box-shadow /text-shadow/CSS过渡/CSS动画（改变颜色）/）
->		(html5:<article>/<asider>/<footer>/<nav>/<section>/)
+>		(html5:<article>/<asider>/<footer>/<nav>/<section>/<canvas>)
 >		浏览器兼容性：IE9+兼容，各浏览器表现一致(实现代码如下)
 >		(<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">)
 >		可访问性：如对听觉设备、打印设备的优化
