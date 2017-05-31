@@ -33,18 +33,18 @@
 		对壁纸设定两个div，然后改变div的display属性）
 ```css
 		.a{ 
-            display:table;
-            width:100%;
-            height:auto;
-            background:#f00
-        }
+			display:table;
+			width:100%;
+			height:auto;
+			background:#f00
+		}
         
-        .b{
+		.b{
             
-            width:1200px;
-            display:inline-block !important;
-            display:inline; 
-        }
+			width:1200px;
+			display:inline-block !important;
+			display:inline; 
+		}
 ```
 #### 2.内容无法再壁纸上移动</br>
 		难点：课堂已知知识无法解决
@@ -56,7 +56,7 @@ body{
         background-image:url("../picture/form.jpg");/*图片地址*/
         background-repeat:no-repeat;/*询问是否重复图片，选择不重复*/
         background-attachment: fixed; /*定义背景图片随滚动轴的移动方式,fixed是固定于浏览器窗口*/     
-    	}
+    }
 ```
 #### 3.视频资料的地址获取 </br>
 		难点：无法直接在网站上获取视频地址
