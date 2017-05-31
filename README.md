@@ -31,7 +31,7 @@
 		知识背景：把div的display属性进行改变，
 		最终解决方法：</br>
 		对壁纸设定两个div，然后改变div的display属性）
-```
+```css
 		.a{ 
             display:table;
             width:100%;
