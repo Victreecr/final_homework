@@ -3,6 +3,13 @@
         background-color: white;
         background-image: none;
             
+
+    }
+    .start{
+    	display: none;
+    }
+    canvas{
+    	display: none;
     }
 	fieldset{
 		border: 5px solid #796400;
